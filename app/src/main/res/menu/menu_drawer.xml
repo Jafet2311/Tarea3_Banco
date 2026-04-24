@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_datos"
+            android:title="@string/title_datos"
+            android:icon="@android:drawable/ic_menu_edit" />
+        <item
+            android:id="@+id/nav_domicilio"
+            android:title="@string/title_domicilio"
+            android:icon="@android:drawable/ic_menu_mapmode" />
+        <item
+            android:id="@+id/nav_ingresos"
+            android:title="@string/title_ingresos"
+            android:icon="@android:drawable/ic_menu_agenda" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/menu_ayuda"
+            android:icon="@android:drawable/ic_menu_help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/menu_configuracion"
+            android:icon="@android:drawable/ic_menu_preferences" />
+        <item
+            android:id="@+id/nav_exit"
+            android:title="@string/menu_salir"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+    </group>
+</menu>
